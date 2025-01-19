@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+             fieldset{
+                width: 350px;
+             }
+    </style>
+</head>
+<body>
+    <center>
+    <form>
+        <fieldset>
+            <legend align="center"><h3>Registration Form</h3></legend>
+        <table>
+                 <tr>
+                    <td>User Name:-</td>
+                    <td><input type="text"></td>
+                 </tr>
+                 <tr>
+                     <td>Password:-</td>
+                     <td><input type="password"></td>
+
+                 </tr>
+                 <tr>
+                    <td>Course:-</td>
+                    <td>
+                        <input type="radio" name="course">Java
+                        <input type="radio" name="course">Python
+                        <input type="radio" name="course">Testing
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Hobbies:-</td>
+                    <td>
+                        <input type="checkbox">Swimming
+                        <input type="checkbox">Riding
+                        <input type="checkbox">Playing
+                    </td>
+
+                 </tr>
+                 <tr>
+                    <td>City:-</td>
+                    <td>
+                        <select>
+                            <option>Pune</option>
+                            <option>Latur</option>
+                        </select>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>State:-</td>
+                    <td>
+                        <select>
+                            <optgroup label="Maharashtra">
+                                <option>Latur</option>
+                                <option>Pune</option>
+                            </optgroup>
+                            <optgroup label="Karnataka">
+                                <option>Bidar</option>
+                                <option>Banglore</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Comment:-</td>
+                    <td>
+                        <textarea rows="5" cols="10"></textarea>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Upload File:-</td>
+                    <td>
+                        <input type="file">
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>Date:-</td>
+                    <td>
+                        <input type="date">
+                    </td>
+                 </tr>
+
+                 <tr>
+                    <td>Feedback:-</td>
+                    <td>
+                        <input type="range">
+                    </td>
+                 </tr>
+
+                 <tr>
+                    <td>Time:-</td>
+                    <td>
+                        <input type="time">
+                    </td>
+                 </tr>
+                 <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit">
+                        <input type="reset">
+                        <input type="button" value="Click Me">
+                    </td>
+                 </tr>
+
+        </table>
+ 
+       </fieldset>
+
+       
+    </form>
+</center>
+</body>
+</html>
